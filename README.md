@@ -1,19 +1,24 @@
-# [EvTexture (ICML 2024)](https://proceedings.mlr.press/v235/kai24a.html)
+# EvTexture & EvTexture++ (ICML 2024 & TPAMI 2026)
 
-Official Pytorch implementation for the "EvTexture: Event-driven Texture Enhancement for Video Super-Resolution" paper (ICML 2024).
+Official PyTorch implementation for the "EvTexture: Event-driven Texture Enhancement for Video Super-Resolution" (ICML 2024) and its journal extension "EvTexture++: Event-Driven Texture Enhancement for Video Super-Resolution" (IEEE TPAMI 2026).
 
 <p align="center">
+    <b>EvTexture (ICML 2024)</b>:
     🌐 <a href="https://dachunkai.github.io/evtexture.github.io/" target="_blank">Project</a> | 📃 <a href="https://arxiv.org/abs/2406.13457" target="_blank">Paper</a> | 🖼️ <a href="https://docs.google.com/presentation/d/1nbDb39TFb374DzBwdz5v20kIREUA0nBH/edit?usp=sharing" target="_blank">Poster</a> <br>
+    <b>EvTexture++ (TPAMI 2026)</b>:
+    📃 <a href="https://ieeexplore.ieee.org/document/11369964" target="_blank">IEEE Xplore</a>
 </p>
+
 
 **Authors**: [Dachun Kai](https://github.com/DachunKai/)<sup>[:email:️](mailto:dachunkai@mail.ustc.edu.cn)</sup>, Jiayao Lu, [Yueyi Zhang](https://scholar.google.com.hk/citations?user=LatWlFAAAAAJ&hl=zh-CN&oi=ao)<sup>[:email:️](mailto:zhyuey@ustc.edu.cn)</sup>, [Xiaoyan Sun](https://scholar.google.com/citations?user=VRG3dw4AAAAJ&hl=zh-CN), *University of Science and Technology of China*
 
 **Feel free to ask questions. If our work helps, please don't hesitate to give us a :star:!**
 
-> **[News]** An extension of this work, **EvTexture++**, is currently under review. The source code and pre-trained models for EvTexture++ will be released in this repository soon.
+> **[News]** The extended journal version, **EvTexture++**, has been accepted by **IEEE TPAMI 2026**. The source code and pre-trained models for EvTexture++ are currently under preparation and will be released in this repository in due course.
 
 ## :rocket: News
 <!-- - [ ] Provide a script for inference on the user's own video -->
+- [x] 2026/02/02: :tada: :tada: The journal extension **EvTexture++** is accepted by IEEE TPAMI.
 - [x] 2024/07/02: Release the colab file for a quick test
 - [x] 2024/06/28: Release details to prepare datasets
 - [x] 2024/06/08: Publish docker image
@@ -115,8 +120,16 @@ https://github.com/DachunKai/EvTexture/assets/66354783/01880c40-147b-4c02-8789-c
 :hammer_and_wrench: We are developing a convenient script to allow users to quickly use our EvTexture model to upscale their own videos. However, our spare time is limited, so please stay tuned!
 
 ## :blush: Citation
-If you find the code and pre-trained models useful for your research, please consider citing our paper. :smiley:
+If the code and pre-trained models facilitate your research, please consider citing the corresponding papers. :smiley:
 ```
+@article{kai2026evtexture++,
+  title={{E}v{T}exture++: {E}vent-{D}riven {T}exture {E}nhancement for {V}ideo {S}uper-{R}esolution},
+  author={Kai, Dachun and Lu, Jiayao and Zhang, Yueyi and Sun, Xiaoyan},
+  journal={IEEE Transactions on Pattern Analysis and Machine Intelligence},
+  year={2026},
+  doi={10.1109/TPAMI.2026.3660020}
+}
+
 @inproceedings{kai2024evtexture,
   title={{E}v{T}exture: {E}vent-driven {T}exture {E}nhancement for {V}ideo {S}uper-{R}esolution},
   author={Kai, Dachun and Lu, Jiayao and Zhang, Yueyi and Sun, Xiaoyan},
